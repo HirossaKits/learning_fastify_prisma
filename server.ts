@@ -6,7 +6,9 @@ fastify.register(require('fastify-swagger'), {
     info: { title: 'fasitfy-api' }
   }
 })
-fastify.register(require('./routes/items'))
+
+fastify.register(require('./routes/products'))
+
 
 const PORT = 5000
 
